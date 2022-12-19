@@ -34,6 +34,7 @@ a {
 }
 
 .header-btn {
+
     padding-left: 1rem;
     padding-right: 1rem;
     width: 100%;
@@ -62,8 +63,9 @@ a {
     border: solid #D79F67;
     border-radius: 0 59px 0 59px;
     margin-top: 2.5rem;
-    margin-left: 0.3rem;
-    margin-right: 0.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 25rem;
 }
 
 .paragraph-text {
@@ -120,27 +122,54 @@ a {
     margin: 1rem;
 }
 
+.desktop {
+    display: none;
+}
+
+.paragraph-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
 @media screen and (min-width: 481px) {
     .bg-home {
         background-image: url(/img/tablet-bg.png);
     }
 
-    .paragraph-wrapper {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-
-
-    }
 
     .paragraph-container {
         width: 25rem;
 
     }
+
 }
 
 @media screen and (min-width: 769px) {
-    .header {
+    .mobile {
         display: none;
+    }
+
+
+    .header {
+        display: grid;
+        grid-template-columns: 3fr 3fr 1fr;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-text {
+        margin-right: 4rem;
+        font-size: 1.3rem;
+    }
+
+    .nav-text:last-child {
+        margin-right: 0;
+        min-width: fit-content;
     }
 }
