@@ -14,7 +14,7 @@ a {
     flex-direction: column;
     background-color: rgba(185, 138, 90, 0.85);
     padding: 0;
-    height: 16vh;
+    height: 170px;
     justify-content: center;
 }
 
@@ -114,6 +114,16 @@ a {
 
 }
 
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.social-btn {
+    display: flex;
+    gap: 2rem;
+}
+
 .footer-logo {
     height: 3rem;
 }
@@ -148,6 +158,11 @@ a {
 }
 
 @media screen and (min-width: 769px) {
+
+    .bg-home {
+        background-image: url(/img/homepage_bg.jpg);
+    }
+
     .mobile {
         display: none;
     }
@@ -155,21 +170,36 @@ a {
 
     .header {
         display: grid;
-        grid-template-columns: 3fr 3fr 1fr;
+        grid-template-columns: 1fr 3fr;
+        height: 170px;
     }
 
     .nav-links {
         display: flex;
-        align-items: center;
+        align-items: flex-end;
+        margin-bottom: 2rem;
+        justify-content: flex-end;
     }
 
     .nav-text {
         margin-right: 4rem;
         font-size: 1.3rem;
+        min-width: fit-content;
+
     }
 
     .nav-text:last-child {
-        margin-right: 0;
-        min-width: fit-content;
+        margin-right: 2rem;
     }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+
+
+
 }
