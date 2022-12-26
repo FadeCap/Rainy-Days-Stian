@@ -18,8 +18,6 @@ main {
 .bg-homepage {
   background-image: url(/img/collection_bg.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-color: #04161b;
   background-attachment: fixed;
   position: absolute;
   top: 0;
@@ -51,11 +49,6 @@ a {
 .header-logo-container {
   display: flex;
   justify-content: center;
-}
-
-.header-logo {
-  align-self: center;
-  width: 14rem;
 }
 
 .header-btn {
@@ -194,20 +187,24 @@ a {
     display: none;
   }
 
-  .bg-homepage {
-    background-color: solid #04161b;
-  }
-
   .mobile {
     display: none;
   }
 
-  .header {
+  /* .header {
     display: grid;
     grid-template-columns: 1fr 3fr;
     height: 170px;
-  }
+  } */
 
+  .header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(185, 138, 90, 0.85);
+    padding: 0;
+    height: 170px;
+    justify-content: space-between;
+  }
   .nav-links {
     display: flex;
     align-items: flex-end;
@@ -229,6 +226,10 @@ a {
     margin-right: 2rem;
   }
 
+  .section-wrapper {
+    display: flex;
+    flex-flow: wrap;
+  }
   .footer {
     display: flex;
     justify-content: space-between;
