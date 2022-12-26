@@ -16,10 +16,11 @@ main {
 }
 
 .bg-homepage {
-  background-color: solid #04161b;
+  background-image: url(/img/collection_bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #04161b;
+  background-attachment: fixed;
   position: absolute;
   top: 0;
   left: 0;
@@ -75,6 +76,8 @@ a {
 }
 
 .back-btn {
+  position: absolute;
+  display: block;
   margin-top: 1rem;
   margin-left: 1rem;
   margin-bottom: 1rem;
@@ -85,18 +88,22 @@ a {
   justify-content: center;
   align-items: center;
   box-shadow: none;
-  border-radius: 15px;
+  border-radius: 32px;
   width: 14rem;
   height: 3rem;
   margin-top: 2rem;
   border: solid #d79f67 2px;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #d79f67;
   color: white;
   font-weight: 700;
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
+.btn:hover {
+  background-color: #d79f67a9;
+  border: #d79f67a9;
+}
 .footer {
   background-color: #0b353f;
   color: white;
@@ -130,12 +137,54 @@ a {
   display: none;
 }
 
+.section-wrapper {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.container {
+  color: #d79f67;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border: #d79f67 solid;
+  border-radius: 0 30px 0 30px;
+  margin: 0 2rem;
+  height: 30rem;
+  backdrop-filter: brightness(65%);
+  margin-bottom: 4rem;
+  width: 18rem;
+}
+
+.product-name {
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+.size {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.jacket {
+  width: 9rem;
+  height: 9rem;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
 @media screen and (min-width: 481px) {
-  .bg-homepage {
-    background-image: url(/img/tablet-bg.png);
+  .paragraph-container {
+    width: 25rem;
   }
 
-  .paragraph-container {
+  .container {
     width: 25rem;
   }
 }

@@ -20,6 +20,7 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #04161b;
+  background-attachment: fixed;
   position: absolute;
   top: 0;
   left: 0;
