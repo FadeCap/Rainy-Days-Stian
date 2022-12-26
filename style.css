@@ -197,6 +197,37 @@ a {
 
   .paragraph-container {
     display: flex;
-    align-items: flex;
+    width: 44rem;
+    height: 16rem;
+    backdrop-filter: brightness(50%);
+    height: 16rem;
+  }
+
+  .paragraph-text {
+    font-size: 1.5rem;
+    display: inline;
+  }
+
+  .right-side-container {
+    display: flex;
+    background-image: url(/img/RainyDays_Jacket7_homepage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 0.3rem;
+    overflow-wrap: break-word;
+    border: solid #d79f67;
+    border-radius: 0 59px 0 59px;
+    width: 25rem;
+    height: 16rem;
+    margin: 3rem;
+    backdrop-filter: brightness(50%);
+  }
+
+  .collection-btn-body {
+    border: solid #d79f67;
   }
 }
