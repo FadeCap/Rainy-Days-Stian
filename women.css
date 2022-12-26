@@ -16,7 +16,7 @@ main {
 }
 
 .bg-homepage {
-  background: url(/img/mobile-bg.png);
+  background-color: solid #04161b;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #04161b;
@@ -30,6 +30,7 @@ main {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 .header {
@@ -64,25 +65,6 @@ a {
   justify-content: space-between;
 }
 
-.paragraph-container {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 0.3rem;
-  overflow-wrap: break-word;
-  border: solid #d79f67;
-  border-radius: 0 59px 0 59px;
-  margin-top: 2.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  width: 25rem;
-}
-
-.paragraph-text {
-  color: white;
-  font-size: 0.8rem;
-}
-
 .nav-container {
   font-weight: 700;
   list-style: none;
@@ -92,14 +74,20 @@ a {
   font-size: 1rem;
 }
 
+.back-btn {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
 .btn {
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: none;
-  width: 8rem;
   border-radius: 15px;
-  height: 2.5rem;
+  width: 14rem;
+  height: 3rem;
   margin-top: 2rem;
   border: solid #d79f67 2px;
   background-color: rgba(0, 0, 0, 0.65);
@@ -142,12 +130,6 @@ a {
   display: none;
 }
 
-.paragraph-wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 @media screen and (min-width: 481px) {
   .bg-homepage {
     background-image: url(/img/tablet-bg.png);
@@ -159,8 +141,12 @@ a {
 }
 
 @media screen and (min-width: 769px) {
+  .back-btn {
+    display: none;
+  }
+
   .bg-homepage {
-    background-image: url(/img/homepage_bg.jpg);
+    background-color: solid #04161b;
   }
 
   .mobile {
@@ -184,6 +170,10 @@ a {
     margin-right: 4rem;
     font-size: 1.3rem;
     min-width: fit-content;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.2rem;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
   }
 
   .nav-text:last-child {
@@ -193,41 +183,5 @@ a {
   .footer {
     display: flex;
     justify-content: space-between;
-  }
-
-  .paragraph-container {
-    display: flex;
-    width: 44rem;
-    height: 16rem;
-    backdrop-filter: brightness(50%);
-    height: 16rem;
-  }
-
-  .paragraph-text {
-    font-size: 1.5rem;
-    display: inline;
-  }
-
-  .right-side-container {
-    display: flex;
-    background-image: url(/img/RainyDays_Jacket7_homepage.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 0.3rem;
-    overflow-wrap: break-word;
-    border: solid #d79f67;
-    border-radius: 0 59px 0 59px;
-    width: 25rem;
-    height: 16rem;
-    margin: 3rem;
-    backdrop-filter: brightness(50%);
-  }
-
-  .collection-btn-body {
-    border: solid #d79f67;
   }
 }
