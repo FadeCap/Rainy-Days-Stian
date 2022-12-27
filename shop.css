@@ -198,12 +198,17 @@ a {
   } */
 
   .header {
-    display: flex;
     flex-direction: row;
     background-color: rgba(185, 138, 90, 0.85);
     padding: 0;
-    height: 170px;
     justify-content: space-between;
+  }
+
+  /* heia den her lagde ej da hilsen sallis*/
+  .header-logo-container {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 2rem;
   }
   .nav-links {
     display: flex;
@@ -213,7 +218,7 @@ a {
   }
 
   .nav-text {
-    margin-right: 4rem;
+    margin-right: 2rem;
     font-size: 1.3rem;
     min-width: fit-content;
     border-bottom: 2px solid white;

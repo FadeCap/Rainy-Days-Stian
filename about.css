@@ -15,8 +15,8 @@ main {
   z-index: 1000;
 }
 
-.bg-homepage {
-  background: url(/img/mobile-bg.png);
+.bg-about {
+  background-image: url(/img/canoe_about_bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #04161b;
@@ -66,7 +66,7 @@ a {
 }
 
 .paragraph-container {
-  padding-top: 1rem;
+  padding-top: 3rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 0.3rem;
@@ -76,12 +76,14 @@ a {
   margin-top: 2.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  width: 25rem;
+  width: 30rem;
+  height: 50rem;
+  backdrop-filter: brightness(50%);
 }
 
 .paragraph-text {
   color: white;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .nav-container {
@@ -91,23 +93,6 @@ a {
   flex-direction: column;
   align-items: center;
   font-size: 1rem;
-}
-
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: none;
-  width: 8rem;
-  border-radius: 15px;
-  height: 2.5rem;
-  margin-top: 2rem;
-  border: solid #d79f67 2px;
-  background-color: rgba(0, 0, 0, 0.65);
-  color: white;
-  font-weight: 700;
-  text-decoration: underline;
-  text-underline-offset: 2px;
 }
 
 .footer {
@@ -203,66 +188,17 @@ a {
 
   .paragraph-container {
     display: flex;
-    width: 25rem;
-    height: 16rem;
+    width: 44.3rem;
+    height: 45rem;
     backdrop-filter: brightness(50%);
-    align-items: center;
+    align-items: left;
     padding-top: 1rem;
   }
 
   .paragraph-text {
-    font-size: 1.2rem;
-  }
-
-  .right-side-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 0.3rem; */
-    border: solid #d79f67;
-    border-radius: 0 59px 0 59px;
-    width: 25rem;
-    height: 16rem;
-    margin-top: 3rem;
-    backdrop-filter: brightness(50%);
-  }
-
-  .home-jacket {
-    width: 9rem;
-    height: 9rem;
-  }
-
-  .collection-btn-body {
-    border: solid #d79f67;
-  }
-  .button-body-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .desktop-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: none;
-    width: 16rem;
-    border-radius: 15px;
-    height: 2.5rem;
-    margin-top: 2rem;
-    border: solid #d79f67 2px;
-    background-color: rgba(0, 0, 0, 0.65);
-    color: white;
-    font-weight: 700;
-    text-decoration: none;
-    text-underline-offset: 2px;
-    font-size: 1.5rem;
-  }
-  .paragraph-wrapper {
-    justify-content: space-evenly;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    margin-left: 3rem;
   }
 }
