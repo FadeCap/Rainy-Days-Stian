@@ -203,8 +203,7 @@ a {
 
   .paragraph-container {
     display: flex;
-    width: 25rem;
-    height: 16rem;
+    flex: 20rem 1 100%;
     backdrop-filter: brightness(50%);
     align-items: center;
     padding-top: 1rem;
@@ -218,10 +217,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 0.3rem; */
     border: solid #d79f67;
     border-radius: 0 59px 0 59px;
     width: 25rem;

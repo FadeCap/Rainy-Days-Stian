@@ -12,11 +12,10 @@ main {
 
 .main {
   position: relative;
-  z-index: 1000;
 }
 
-.bg-about {
-  background-image: url(/img/canoe_about_bg.jpg);
+.bg-contact {
+  background-image: url(/img/forest_contact_bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #04161b;
@@ -26,7 +25,7 @@ main {
   left: 0;
   right: 0;
   bottom: 0;
-  filter: brightness(65%);
+  filter: brightness(50%);
 }
 
 a {
@@ -65,6 +64,145 @@ a {
   justify-content: space-between;
 }
 
+.back-btn {
+  position: relative;
+  display: block;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  color: white;
+}
+
+label {
+  color: white;
+  font-size: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+h3 {
+  color: white;
+  font-size: 0.5rem;
+}
+
+.fn-ln-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-box {
+  border-color: #d79f67;
+  border-width: 1px;
+  border-radius: 4px;
+  padding-left: 0.5rem;
+  background-color: #97724a;
+  border-style: solid;
+  height: 2rem;
+}
+
+.message {
+  width: fit-content;
+}
+
+.name-input input {
+  width: 8rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.name-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input:focus {
+  outline: none;
+  min-width: 0;
+}
+
+.email {
+  width: fit-content;
+}
+
+.email-input {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1rem;
+}
+
+.subject {
+  width: 8rem;
+}
+
+.email-sub-mes-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.send-btn {
+  display: flex;
+  box-shadow: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+  border: solid #d79f67 2px;
+  background-color: #d79f67;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-self: flex-end;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 50px 100%;
+  border: solid 2px #d79f67;
+  border-radius: 0 43px 0 43px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  backdrop-filter: brightness(65%);
+  align-items: flex-start;
+  overflow: block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-overflow: none;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 50px 100%;
+  border: solid 2px #d79f67;
+  border-radius: 0 43px 0 43px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  backdrop-filter: brightness(65%);
+  align-items: flex-start;
+  overflow: block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-overflow: none;
+  margin-top: 2rem;
+}
 .paragraph-container {
   padding-top: 3rem;
   padding-bottom: 1rem;
