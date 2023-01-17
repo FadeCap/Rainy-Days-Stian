@@ -106,6 +106,7 @@ a {
   backdrop-filter: brightness(50%);
   overflow: hidden;
   min-height: 412px;
+  width: 100%;
 }
 
 .jacket-text {
@@ -166,6 +167,7 @@ a {
   backdrop-filter: brightness(50%);
   overflow: hidden;
   min-height: 412px;
+  width: 100%;
 }
 
 .summary-text {
@@ -187,7 +189,6 @@ a {
 
 .price-total-shipping-box {
   font-weight: 300;
-  margin
 }
 
 .price-total {
@@ -278,10 +279,6 @@ a {
 }
 
 @media screen and (min-width: 769px) {
-  .bg-homepage {
-    background-image: url(/img/homepage_bg.jpg);
-  }
-
   .mobile {
     display: none;
   }
@@ -314,15 +311,11 @@ a {
     margin-right: 2rem;
   }
 
-  .contact-form-container {
+  /* My cart start */
+
+  .mycart-wrapper {
     display: flex;
     flex-direction: row;
-    max-width: none;
-  }
-
-  .map-container {
-    min-width: 340px;
-    height: auto;
   }
 
   .footer {
