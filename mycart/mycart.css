@@ -67,8 +67,6 @@ a {
 }
 
 .back-btn {
-  position: relative;
-  display: block;
   margin-top: 1rem;
   margin-left: 1rem;
   margin-bottom: 1rem;
@@ -279,6 +277,10 @@ a {
 }
 
 @media screen and (min-width: 769px) {
+  .back-btn {
+    display: none;
+  }
+
   .mobile {
     display: none;
   }
@@ -316,6 +318,7 @@ a {
   .mycart-wrapper {
     display: flex;
     flex-direction: row;
+    margin-top: 2rem;
   }
 
   .footer {

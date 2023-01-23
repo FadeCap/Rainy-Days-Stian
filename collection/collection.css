@@ -167,6 +167,10 @@ a {
 }
 
 @media screen and (min-width: 769px) {
+  .back-btn {
+    display: none;
+  }
+
   .desktop {
     display: block;
   }
@@ -177,7 +181,6 @@ a {
   .container-collection {
     border: solid 2px #d79f67;
     border-radius: 0 15px 0 15px;
-    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,6 +211,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 3fr;
     height: 170px;
+    margin-bottom: 4rem;
   }
 
   .nav-links {

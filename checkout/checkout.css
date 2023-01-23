@@ -67,8 +67,6 @@ a {
 }
 
 .back-btn {
-  position: relative;
-  display: block;
   margin-top: 1rem;
   margin-left: 1rem;
   margin-bottom: 1rem;
@@ -378,6 +376,10 @@ input {
 }
 
 @media screen and (min-width: 769px) {
+  .back-btn {
+    display: none;
+  }
+
   .bg-homepage {
     background-image: url(/img/homepage_bg.jpg);
   }

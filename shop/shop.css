@@ -69,8 +69,6 @@ a {
 }
 
 .back-btn {
-  position: absolute;
-  display: block;
   margin-top: 1rem;
   margin-left: 1rem;
   margin-bottom: 1rem;
