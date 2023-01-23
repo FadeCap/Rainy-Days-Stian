@@ -325,6 +325,7 @@ input {
   color: rgba(255, 255, 255, 0.726);
   border-color: #d79f67a4;
   background-color: #d79f67a4;
+  cursor: pointer;
 }
 
 .footer {

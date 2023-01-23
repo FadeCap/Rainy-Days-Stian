@@ -89,14 +89,23 @@ a {
 }
 /* End of Header */
 
+.final-checkout-content {
+  display: flex;
+  justify-content: center;
+}
+
 .final-checkout-container {
   display: flex;
   flex-direction: column;
-  border: 1px #d79f67 solid;
+  border: 2px #d79f67 solid;
   align-items: center;
-  backdrop-filter: brightness(60%);
+  backdrop-filter: brightness(70%);
   border-radius: 0 32px 0 32px;
   min-height: 300px;
+  gap: 2rem;
+  padding: 1rem;
+  max-width: 600px;
+  align-self: center;
 }
 
 h1,
@@ -105,9 +114,34 @@ h2 {
   color: white;
 }
 
+.paragraph-text {
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  color: ;
+}
+
 .checkmark {
   height: 5rem;
   width: 5rem;
+}
+
+.continue-shopping-button {
+  border: none;
+  background-color: transparent;
+  color: #d79f67;
+  border-bottom: #d79f67 1px solid;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+.checkout-btn {
+  text-decoration: none;
+}
+
+.continue-shopping-button:hover {
+  color: #d79f67a4;
+  cursor: pointer;
 }
 
 /* Start of footer */
@@ -153,10 +187,6 @@ h2 {
 @media screen and (min-width: 481px) {
   .bg-homepage {
     background-image: url(/img/tablet-bg.png);
-  }
-
-  .paragraph-container {
-    width: 25rem;
   }
 }
 

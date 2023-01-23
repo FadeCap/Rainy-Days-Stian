@@ -193,7 +193,7 @@ a {
   .section-wrapper {
     flex-direction: row;
     gap: 5rem;
-    height: calc(100vh - 96px - 170px);
+    padding-bottom: 5rem;
   }
 
   .bg-homepage {

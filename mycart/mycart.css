@@ -204,13 +204,13 @@ a {
   padding: 0.3rem 0;
   justify-content: center;
   width: 10rem;
-  margin-top: 2rem;
 }
 
 .check-out-btn:hover {
   color: rgba(255, 255, 255, 0.726);
   border-color: #d79f67a4;
   background-color: #d79f67a4;
+  cursor: pointer;
 }
 
 .checkout-btn-box {
