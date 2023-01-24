@@ -11,7 +11,8 @@ main {
 }
 
 .main {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 1000;
 }
 
@@ -25,53 +26,12 @@ main {
   right: 0;
   bottom: 0;
   filter: brightness(65%);
+  z-index: -1;
 }
 
 a {
   color: white;
   text-decoration: none;
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(185, 138, 90, 0.85);
-  padding: 0;
-  height: 170px;
-  justify-content: center;
-}
-
-.shirt-btn,
-.cart-btn {
-  width: 2rem;
-}
-
-.header-logo-container {
-  display: flex;
-  justify-content: center;
-}
-
-.header-btn {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav-container {
-  font-weight: 700;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1rem;
-}
-
-.back-btn {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
 }
 
 .btn {
@@ -95,37 +55,23 @@ a {
   background-color: #d79f67a9;
   border: #d79f67a9;
 }
-.footer {
-  background-color: #0b353f;
-  color: white;
+
+.product-name {
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+.size {
   display: flex;
-  padding: 1rem;
-  font-size: 0.5rem;
-  justify-content: center;
-  height: 96px;
-  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
 }
 
-.footer-container {
-  display: flex;
-  align-items: center;
-}
-
-.social-btn {
-  display: flex;
-  gap: 2rem;
-}
-
-.footer-logo {
-  height: 3rem;
-}
-
-.footer-text {
-  margin: 1rem;
-}
-
-.desktop {
-  display: none;
+.jacket {
+  width: 9rem;
+  height: 9rem;
+  object-fit: cover;
+  margin-bottom: 2rem;
 }
 
 .section-wrapper {
@@ -152,24 +98,6 @@ a {
   width: 18rem;
 }
 
-.product-name {
-  font-size: 1.3rem;
-  font-weight: 100;
-}
-
-.size {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-}
-
-.jacket {
-  width: 9rem;
-  height: 9rem;
-  object-fit: cover;
-  margin-bottom: 2rem;
-}
-
 @media screen and (min-width: 481px) {
   .paragraph-container {
     width: 25rem;
@@ -189,20 +117,12 @@ a {
     display: none;
   }
 
-  /* .header {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    height: 170px;
-  } */
-
   .header {
     flex-direction: row;
-    background-color: rgba(185, 138, 90, 0.85);
     padding: 0;
     justify-content: space-between;
   }
 
-  /* heia den her lagde ej da hilsen sallis*/
   .header-logo-container {
     display: flex;
     align-items: flex-end;

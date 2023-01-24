@@ -34,57 +34,6 @@ a {
   filter: brightness(60%);
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(185, 138, 90, 0.85);
-  padding: 0;
-  height: 170px;
-  justify-content: center;
-}
-
-.shirt-btn,
-.cart-btn {
-  width: 2rem;
-}
-
-.header-logo-container {
-  display: flex;
-  justify-content: center;
-}
-
-.header-logo {
-  align-self: center;
-  width: 14rem;
-}
-
-.header-btn {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.back-btn {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-}
-
-.main-section {
-  display: flex;
-  justify-content: center;
-}
-
-.nav-container {
-  font-weight: 700;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1rem;
-}
 /* End of Header */
 
 .final-checkout-content {
@@ -140,46 +89,6 @@ h2 {
 .continue-shopping-button:hover {
   color: #d79f67a4;
   cursor: pointer;
-}
-
-/* Start of footer */
-.footer {
-  background-color: #0b353f;
-  color: white;
-  display: flex;
-  padding: 1rem;
-  font-size: 0.5rem;
-  justify-content: center;
-  height: 96px;
-  align-items: center;
-}
-
-.footer-container {
-  display: flex;
-  align-items: center;
-}
-
-.social-btn {
-  display: flex;
-  gap: 2rem;
-}
-
-.footer-logo {
-  height: 3rem;
-}
-
-.footer-text {
-  margin: 1rem;
-}
-
-.desktop {
-  display: none;
-}
-
-.paragraph-wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 @media screen and (min-width: 481px) {

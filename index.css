@@ -16,7 +16,7 @@ main {
 }
 
 .bg-homepage {
-  background: url(/img/mobile-bg.png);
+  background: url(/img/mobile-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #04161b;
@@ -31,38 +31,6 @@ main {
 
 a {
   color: white;
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(185, 138, 90, 0.85);
-  padding: 0;
-  height: 170px;
-  justify-content: center;
-}
-
-.shirt-btn,
-.cart-btn {
-  width: 2rem;
-}
-
-.header-logo-container {
-  display: flex;
-  justify-content: center;
-}
-
-.header-logo {
-  align-self: center;
-  width: 14rem;
-}
-
-.header-btn {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .paragraph-container {
@@ -111,35 +79,6 @@ a {
   text-underline-offset: 2px;
 }
 
-.footer {
-  background-color: #0b353f;
-  color: white;
-  display: flex;
-  padding: 1rem;
-  font-size: 0.5rem;
-  justify-content: center;
-  height: 96px;
-  align-items: center;
-}
-
-.footer-container {
-  display: flex;
-  align-items: center;
-}
-
-.social-btn {
-  display: flex;
-  gap: 2rem;
-}
-
-.footer-logo {
-  height: 3rem;
-}
-
-.footer-text {
-  margin: 1rem;
-}
-
 .desktop {
   display: none;
 }
@@ -152,7 +91,7 @@ a {
 
 @media screen and (min-width: 481px) {
   .bg-homepage {
-    background-image: url(/img/tablet-bg.png);
+    background-image: url(/img/tablet-bg.jpg);
   }
 
   .paragraph-container {

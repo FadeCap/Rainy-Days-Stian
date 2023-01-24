@@ -34,44 +34,6 @@ a {
   filter: brightness(50%);
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(185, 138, 90, 0.85);
-  padding: 0;
-  height: 170px;
-  justify-content: center;
-}
-
-.shirt-btn,
-.cart-btn {
-  width: 2rem;
-}
-
-.header-logo-container {
-  display: flex;
-  justify-content: center;
-}
-
-.header-logo {
-  align-self: center;
-  width: 14rem;
-}
-
-.header-btn {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.back-btn {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-}
-
 .main-section {
   display: flex;
   justify-content: center;
@@ -366,13 +328,6 @@ input {
 }
 
 @media screen and (min-width: 481px) {
-  .bg-homepage {
-    background-image: url(/img/tablet-bg.png);
-  }
-
-  .paragraph-container {
-    width: 25rem;
-  }
 }
 
 @media screen and (min-width: 769px) {

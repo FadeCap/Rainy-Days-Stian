@@ -16,7 +16,7 @@ main {
 }
 
 .bg-homepage {
-  background: url(/img/mobile-bg.png);
+  background: url(/img/mobile-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #04161b;
@@ -34,53 +34,6 @@ a {
   text-decoration: none;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(185, 138, 90, 0.85);
-  padding: 0;
-  height: 170px;
-  justify-content: center;
-}
-
-.shirt-btn,
-.cart-btn {
-  width: 2rem;
-}
-
-.header-logo-container {
-  display: flex;
-  justify-content: center;
-}
-
-.header-logo {
-  align-self: center;
-  width: 14rem;
-}
-
-.header-btn {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav-container {
-  font-weight: 700;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1rem;
-}
-
-.back-btn {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-}
-
 .btn {
   display: flex;
   justify-content: center;
@@ -96,35 +49,6 @@ a {
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 2px;
-}
-
-.footer {
-  background-color: #0b353f;
-  color: white;
-  display: flex;
-  padding: 1rem;
-  font-size: 0.5rem;
-  justify-content: center;
-  height: 96px;
-  align-items: center;
-}
-
-.footer-container {
-  display: flex;
-  align-items: center;
-}
-
-.social-btn {
-  display: flex;
-  gap: 2rem;
-}
-
-.footer-logo {
-  height: 3rem;
-}
-
-.footer-text {
-  margin: 1rem;
 }
 
 .section-wrapper {
@@ -152,7 +76,8 @@ a {
   height: 15rem;
 }
 
-.desktop {
+.desktop,
+.desktop-card {
   display: none;
 }
 
