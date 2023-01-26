@@ -268,6 +268,21 @@ input {
   flex-direction: column;
 }
 
+.card-number-input {
+  width: 200px;
+  height: 44px;
+}
+
+.exp-date-input {
+  width: 80px;
+  height: 40px;
+}
+
+.ccv-input {
+  width: 50px;
+  height: 40px;
+}
+
 .confpayment-button {
   color: white;
   background-color: #d79f67;
