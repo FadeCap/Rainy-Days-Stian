@@ -4,33 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Mens sportwear, jackets for all weather"
-    />
-    <script src="/app.js" defer></script>
+    <meta name="description" content="Final Checkout page" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;family=Raleway:wght@300;900&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../global.css" />
-    <link rel="stylesheet" href="shop.css" />
-    <title>Rainy Days | Mens page</title>
+    <link rel="stylesheet" href="finalcheckout.css" />
+    <title>Rainy Days | Final checkout page</title>
   </head>
   <body>
     <main>
-      <div class="bg-homepage"></div>
+      <div class="bg-finalcheckout"></div>
       <div class="main">
         <header class="header">
-          <div class="header-logo-container">
-            <a class="home-button-link" href="/">
-              <img
-                class="header-logo"
-                src="/img/RainyDays_phone_header.png"
-                alt="Rainy Days Logo"
-              />
-            </a>
-          </div>
+          <a class="header-logo" href="/">
+            <img src="/img/RainyDays_phone_header.png" alt="Rainy Days Logo" />
+          </a>
           <nav class="nav-links desktop">
             <a class="nav-text" href="/collection"
               >Collection</a
@@ -40,39 +30,39 @@
             <a class="nav-text" href="/mycart">My cart</a>
           </nav>
           <div class="mobile header-btn">
-            <a href="/collection">
-              <img
-                class="shirt-btn"
-                src="/img/shirt.svg"
-                alt="Collection button"
-              />
+            <a href="/collection" class="shirt">
+              <img class="shirt-btn" src="/img/shirt.svg" alt="Shirt button" />
             </a>
-            <a href="/mycart">
+            <a href="/mycart" class="cart">
               <img class="cart-btn" src="/img/cart.svg" alt="Cart button" />
             </a>
           </div>
         </header>
-      </div>
-
-
-
-        <!-- End of header-->
         <a href="../collection">
-        <img class="back-btn" src="/img/back-btn.svg" alt="Back button" />
-      </a>
-
-
-      <section class="section-wrapper" id="product-container" >
-        
-      </section>
+          <img class="back-btn" src="/img/back-btn.svg" alt="Back button" />
+        </a>
+        <!-- End of Header-->
+        <div class="final-checkout-content">
+          <div class="final-checkout-container">
+            <h1>Thank you for your purchase!</h1>
+            <img
+              class="checkmark"
+              src="../img/checkmark-finalcheckout.svg"
+              alt="checkmark"
+            />
+            <p class="paragraph-text">
+              We will send you an email with your receipt and ordering number
+              shortly
+            </p>
+            <a href="/collection" class="checkout-btn">
+              <div class="continue-shopping-button">Continue shopping</div>
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
 
-
-
-    <!-- End of main content-->
-
-
-
+    <!-- Beginning of Footer-->
     <footer class="footer">
       <div class="footer-container">
         <img
