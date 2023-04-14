@@ -15,6 +15,12 @@ function printSizes(arr) {
   return sizes;
 }
 
+function addToCart(e){
+  //Preventing button from redirecting to product description
+  e.stopPropagation()
+}
+
+
 async function getProducts() {
   const response = await fetch(url);
 
@@ -46,7 +52,7 @@ async function getProducts() {
                                       }
                                       </h3>
                                     </div>
-                                    <button class="btn">Add to cart</button>
+                                    <button class="btn" onClick="addToCart(event)">Add to cart</button>
                                   </div>`;
   }
 }
