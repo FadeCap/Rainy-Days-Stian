@@ -8,6 +8,7 @@
 main {
   min-height: calc(100vh - 96px);
   position: relative;
+  padding-bottom: 4rem;
 }
 
 .main {
@@ -27,6 +28,7 @@ main {
   right: 0;
   bottom: 0;
   filter: brightness(65%);
+  z-index: -10;
 }
 
 a {
@@ -46,7 +48,6 @@ a {
   margin-top: 2.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-bottom: 4rem;
   backdrop-filter: brightness(50%);
 }
 
@@ -125,7 +126,6 @@ a {
     align-items: left;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-bottom: 2rem;
     margin-top: 2rem;
   }
 

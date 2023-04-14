@@ -32,6 +32,7 @@ a {
   right: 0;
   bottom: 0;
   filter: brightness(60%);
+  z-index: -10;
 }
 
 .mycart-wrapper {
