@@ -1,6 +1,6 @@
 const id = window.location.search.replace("?", "");
 const root = document.getElementById("root");
-const url = `https://api.noroff.dev/api/v1/rainy-dayss/${id}`;
+const url = `https://api.noroff.dev/api/v1/rainy-days/${id}`;
 
 function printSizes(arr) {
   let sizes = "";
