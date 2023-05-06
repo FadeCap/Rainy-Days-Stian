@@ -36,6 +36,7 @@ async function getProducts() {
                                       class="jacket"
                                       src=${products[i].image}
                                       alt=${products[i].title}
+                                      loading="lazy"
                                     />
                                     <div class="product-info-container">
                                       <h2 class="product-name">${
