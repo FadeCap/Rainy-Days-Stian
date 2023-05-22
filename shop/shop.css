@@ -11,7 +11,7 @@ main {
 }
 
 .main {
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 1000;
 }
@@ -123,38 +123,6 @@ a {
   .mobile {
     display: none;
   }
-
-  /* .header {
-    flex-direction: row;
-    padding: 0;
-    justify-content: space-between;
-  }
-
-  .header-logo-container {
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 2rem;
-  } */
-  /* .nav-links {
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 2rem;
-    justify-content: flex-end;
-  }
-
-  .nav-text {
-    margin-right: 2rem;
-    font-size: 1.3rem;
-    min-width: fit-content;
-    border-bottom: 2px solid white;
-    padding-bottom: 0.2rem;
-    padding-right: 0.7rem;
-    padding-left: 0.7rem;
-  }
-
-  .nav-text:last-child {
-    margin-right: 2rem;
-  } */
 
   .section-wrapper {
     display: flex;
