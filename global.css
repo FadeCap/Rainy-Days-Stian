@@ -111,7 +111,7 @@ a {
   .desktop {
     display: block;
   }
-  
+
   .back-btn {
     display: none;
   }
@@ -150,7 +150,7 @@ a {
 
   .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .footer-text {
