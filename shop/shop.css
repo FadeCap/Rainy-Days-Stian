@@ -124,7 +124,7 @@ a {
     display: none;
   }
 
-  .header {
+  /* .header {
     flex-direction: row;
     padding: 0;
     justify-content: space-between;
@@ -134,8 +134,8 @@ a {
     display: flex;
     align-items: flex-end;
     padding-bottom: 2rem;
-  }
-  .nav-links {
+  } */
+  /* .nav-links {
     display: flex;
     align-items: flex-end;
     margin-bottom: 2rem;
@@ -154,7 +154,7 @@ a {
 
   .nav-text:last-child {
     margin-right: 2rem;
-  }
+  } */
 
   .section-wrapper {
     display: flex;
