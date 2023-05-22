@@ -87,8 +87,7 @@ a {
 
   .paragraph-container {
     display: flex;
-    width: 35rem;
-    height: 35rem;
+    width: 40rem;
     backdrop-filter: brightness(50%);
     padding-top: 1rem;
     padding-bottom: 1rem;

@@ -42,8 +42,8 @@ async function getProducts() {
               ${
                 products.onSale
                   ? products.discountedPrice
-                  : products.price
-              }
+                  : products.price 
+              } EUR
             </h3>
             <p class="product-description">
               ${products.description}
