@@ -85,7 +85,7 @@ a {
 
 .social-btn {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .footer-logo {
@@ -95,6 +95,35 @@ a {
 .footer-text {
   margin: 1rem;
 }
+
+.facebook-logo {
+  height: 20px;
+  width: 20px;
+}
+
+.facebook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.twitter-logo {
+  height: 20px;
+  width: 20px;
+}
+
+.twitter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-btn {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem;
+}
+
 
 .desktop {
   display: none;
@@ -154,6 +183,34 @@ a {
   }
 
   .footer-text {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
+  }
+
+  .facebook-logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .facebook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .twitter-logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .twitter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
   }
 }
