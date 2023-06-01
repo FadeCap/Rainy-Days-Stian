@@ -57,7 +57,7 @@ a {
 
 .contact-form-container label {
   color: white;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .contact-form-container input,
@@ -148,7 +148,7 @@ a {
 }
 
 .text-banner {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   background-color: #9a764b;
   padding: 0.5rem 0;
   padding-left: 0.5rem;
@@ -214,10 +214,9 @@ a {
     display: flex;
     flex-direction: row;
     max-width: none;
-  }
-
-  .contact-form-container {
+    font-size: 1rem;
     margin-top: 2rem;
+    
   }
 
   .map-container {
@@ -225,6 +224,9 @@ a {
     height: auto;
   }
 
+  .name-container {
+    font-size: 1rem;
+  }
 
   .paragraph-container {
     display: flex;
