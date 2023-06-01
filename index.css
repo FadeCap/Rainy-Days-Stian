@@ -172,6 +172,7 @@ a {
     text-decoration: none;
     text-underline-offset: 2px;
     font-size: 1rem;
+    margin-left: 5rem;
   }
   .paragraph-wrapper {
     justify-content: space-evenly;
