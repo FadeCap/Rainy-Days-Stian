@@ -44,7 +44,7 @@ a {
   height: 3rem;
   margin-top: 2rem;
   border: solid #d79f67 2px;
-  background-color: #d79f67;
+  background-color: #9B6C3C;
   color: white;
   font-weight: 700;
   font-size: 1rem;
@@ -52,8 +52,8 @@ a {
 }
 
 .btn:hover {
-  background-color: #d79f67a9;
-  border: #d79f67a9;
+  background-color: #9B6C3C;
+  border: #9B6C3C;
 }
 
 .product-info-container {

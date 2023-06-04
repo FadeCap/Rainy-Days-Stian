@@ -23,7 +23,7 @@ a {
 .header {
   display: flex;
   flex-direction: column;
-  background-color: rgb(185, 138, 90);
+  background-color: #9B6C3C;
   padding: 0;
   height: 170px;
   justify-content: center;
