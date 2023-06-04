@@ -42,6 +42,7 @@ a {
 .header-logo {
   align-self: center;
   width: 14rem;
+  margin-left: 2rem;
 }
 
 .header-btn {
