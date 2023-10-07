@@ -1,7 +1,7 @@
 # Rainy Days
 
 ![Rainy-Days-Desktop](https://github.com/FadeCap/Rainy-Days-Stian/assets/116163360/7e377931-7896-460c-8e1d-fcc439ce335f)
-![Rainy-Days-mobile](https://github.com/FadeCap/Rainy-Days-Stian/assets/116163360/cdf9f8e4-4375-4323-b120-97ffbfcfb1ed)
+<div style="text-align:center"><img src="![Rainy-Days-mobile](https://github.com/FadeCap/Rainy-Days-Stian/assets/116163360/cdf9f8e4-4375-4323-b120-97ffbfcfb1ed)" /></div>
 
 
 A simple online store for sportswear. 
