@@ -5,6 +5,8 @@
 
 Online store for sportswear 
 
+Link to Live website: [Hosted on Netlify](https://rainy-days-stian.netlify.app/)
+
 ## Description
 
 For this project I was tasked with creating a sportswear online store called Rainy Days. 
@@ -16,8 +18,6 @@ The Rainy Days website is meant for adults, ages 40-50.
 - Use Javascript to fetch and display a specific product on it's own page
 
 ## Built With
-
-You can list a the tech stack that you've used over here
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -38,17 +38,10 @@ You can list a the tech stack that you've used over here
 git clone git@github.com:FadeCap/Rainy-Days-Stian.git
 ```
 
-### Running
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
 
 ## Contributing
 
-Please make a pull request to view the code 
+Please make a pull request to review the code 
 
 ## Contact
 
