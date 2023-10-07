@@ -53,4 +53,5 @@ Please make a pull request to view the code
 ## Contact
 
 [My LinkedIn page](www.linkedin.com)
+
 Email: stian94lb@gmail.com
